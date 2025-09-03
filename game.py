@@ -2,7 +2,7 @@ import pygame
 import time
 import sys
 from collections import defaultdict
-from config import drum_positions, NOTE_TO_DRUM, velocity_to_limb
+from config import drum_positions, NOTE_TO_DRUM, velocity_to_limb, LIMB_TO_VEL
 from data_manager import save_reaction_data
 from midi_utils import open_midi_in, extract_hits_from_midi
 from tkinter import messagebox
@@ -221,3 +221,4 @@ def show_score_screen(screen, score, total_notes):
         screen.blit(info, (220, 300))
 
         pygame.display.flip()
+
