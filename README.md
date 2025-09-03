@@ -5,7 +5,58 @@ HealBeat Rhythm Game은 전자드럼 실시간 입력을 기반으로 하는 리
 
 ---
 
+## 🎶 프로젝트 배경 Research Background
+
+English
+
+
+Music and rhythm games are widely recognized as effective tools in **rehabilitation and therapy**.  
+In particular:
+
+- **Motor Skills Training**:  
+  Drumming requires precise timing and coordination, which can help improve motor functions in elderly users and individuals with autism spectrum disorder (ASD).
+
+- **Cognitive Engagement**:  
+  Matching beats with visual and auditory cues encourages attention, memory, and reaction speed.
+
+- **Emotional Motivation**:  
+  Interactive rhythm-based feedback provides motivation and enjoyment, increasing adherence to therapy routines.
+
+By combining **real-time MIDI drumming input** with **visual & heptic feedback and data tracking**,  
+this project bridges **music therapy** and **game-based rehabilitation**, creating a playful yet structured environment for training.
+
+
+한국어
+
+
+음악과 리듬 게임은 재활 및 치료에서 효과적인 도구로 잘 알려져 있습니다.
+
+-  **운동 능력 훈련**: 드럼 연주는 정확한 타이밍과 협응을 요구하여, 신체 능력 향상에 도움을 줍니다.
+
+- **인지적 참여**: 시각·청각 신호에 맞춰 박자를 맞추는 과정은 집중력, 기억력, 반응 속도 개선에 기여합니다.- 
+
+- **정서적 동기 부여**: 리듬 기반 상호작용은 즐거움과 동기를 제공해 지속적인 참여를 유도합니다.
+
+본 프로젝트는 **실시간 MIDI 드럼 입력**과 **시각적, 촉각적 피드백 및 데이터 기록**을 결합하여,
+음악치료와 게임 기반 재활을 연결하는 구조화된 재미있는 훈련 환경을 제공합니다.
+
 ## ✨ 주요 기능
+
+English
+
+- 🎵 **Realtime MIDI drum input**  
+  Detects timing of drum hits
+  
+- 🥁 **Visual feedback**
+  Drum kit pulses in sync with scheduled notes.
+
+- 📊 **Session visualization**
+  Average reaction errors per limb are plotted over multiple attempts.
+
+- 🏆 **자동 점수 화면**
+  Evaluates accuracy based on hit timing.
+
+한국어
 
 - 🎵 **MIDI 파일 기반 리듬 노트 생성**  
   지정한 폴더의 MIDI 파일을 선택하여 게임 플레이 가능
@@ -52,23 +103,18 @@ python main.py
 
 ```bash
 healbeat/
-├── main.py              # 실행 진입점
-├── game.py              # 게임 로직 (pygame)
-├── midi_utils.py        # MIDI 처리 (pretty_midi, mido)
-├── data_utils.py        # CSV 기록 및 데이터 시각화
-├── ui_home.py           # 홈 화면 UI (tkinter)
-├── ui_score.py          # 점수 화면 UI
-├── right.ino            # 오른팔, 오른다리 모터 진동
-├── left.ino             # 왼팔, 왼다리 모터 진동
+├── main.py              # 실행 진입점. Entry point (home screen & navigation)
+├── game.py              # 게임 로직. Core rhythm game Logic (pygame) 
+├── midi_utils.py        # MIDI 처리.  (pretty_midi, mido)
+├── data_utils.py        # CSV 기록 및 데이터 시각화. Data saving & visualization.
+├── ui_home.py           # 홈 화면 UI. Home screen UI.
+├── ui_score.py          # 점수 화면 UI. Score screen UI.
+├── right.ino            # 오른팔, 오른다리 모터 진동. Heptic feedback for right limbs.
+├── left.ino             # 왼팔, 왼다리 모터 진동. Heptic feedback for left limbs.
+├── requirement.txt      # 패키지 설치 리스트. Dependencies
 ├── assets/
 │   ├── background.png   # 홈 화면 배경
 │   ├── background_2.png # 게임 화면 배경
 │   └── ...              # 기타 이미지 리소스
 ├── midiFolder/               # MIDI 파일 모음 폴더
 └── reaction_data.csv    # 반응속도 기록 (자동 생성)
-
-
-
-
-
-
