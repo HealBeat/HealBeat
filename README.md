@@ -5,9 +5,9 @@ HealBeat Rhythm Game은 전자드럼 실시간 입력을 기반으로 하는 리
 
 ---
 
-## 🎶 프로젝트 배경 Research Background
+## 🎶 Research Background | 프로젝트 배경
 
-English
+(English)
 
 
 Music and rhythm games are widely recognized as effective tools in **rehabilitation and therapy**.  
@@ -26,7 +26,7 @@ By combining **real-time MIDI drumming input** with **visual & heptic feedback a
 this project bridges **music therapy** and **game-based rehabilitation**, creating a playful yet structured environment for training.
 
 
-한국어
+(한국어)
 
 
 음악과 리듬 게임은 재활 및 치료에서 효과적인 도구로 잘 알려져 있습니다.
@@ -40,9 +40,9 @@ this project bridges **music therapy** and **game-based rehabilitation**, creati
 본 프로젝트는 **실시간 MIDI 드럼 입력**과 **시각적, 촉각적 피드백 및 데이터 기록**을 결합하여,
 음악치료와 게임 기반 재활을 연결하는 구조화된 재미있는 훈련 환경을 제공합니다.
 
-## ✨ 주요 기능
+## ✨ Features | 주요 기능
 
-English
+(English)
 
 - 🎵 **Realtime MIDI drum input**  
   Detects timing of drum hits
@@ -56,7 +56,7 @@ English
 - 🏆 **자동 점수 화면**
   Evaluates accuracy based on hit timing.
 
-한국어
+(한국어)
 
 - 🎵 **MIDI 파일 기반 리듬 노트 생성**  
   지정한 폴더의 MIDI 파일을 선택하여 게임 플레이 가능
@@ -80,7 +80,7 @@ English
 
 ---
 
-## ⚙️ 설치 방법
+## ⚙️ Installation | 설치 방법
 1. 저장소 클론
 ```bash
 git clone https://github.com/username/healbeat-rhythm-game.git
@@ -99,7 +99,7 @@ python main.py
 
 ---
 
-## 📂 파일 구조
+## 📂 Project Structure | 파일 구조
 
 ```bash
 healbeat/
