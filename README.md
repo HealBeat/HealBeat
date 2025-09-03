@@ -31,12 +31,20 @@ HealBeat Rhythm Game은 전자드럼 실시간 입력을 기반으로 하는 리
 
 ## ⚙️ 설치 방법
 1. 저장소 클론
+```bash
 git clone https://github.com/username/healbeat-rhythm-game.git
 cd healbeat-rhythm-game
+```
+
 2. 패키지 설치
+```bash
 pip install -r requirements.txt
+```
+
 3. 실행
+```bash
 python main.py
+```
 
 ---
 
