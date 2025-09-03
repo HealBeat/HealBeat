@@ -110,8 +110,7 @@ healbeat/
 ├── data_utils.py        # CSV 기록 및 데이터 시각화. Data saving & visualization.
 ├── ui_home.py           # 홈 화면 UI. Home screen UI.
 ├── ui_score.py          # 점수 화면 UI. Score screen UI.
-├── right.ino            # 오른팔, 오른다리 모터 진동. Heptic feedback for right limbs.
-├── left.ino             # 왼팔, 왼다리 모터 진동. Heptic feedback for left limbs.
+├── motor.ino            # 모터 진동 피드백. Heptic feedback for limbs.
 ├── requirement.txt      # 패키지 설치 리스트. Dependencies
 ├── assets/
 │   ├── background.png   # 홈 화면 배경
