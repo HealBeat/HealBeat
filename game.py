@@ -5,6 +5,7 @@ from collections import defaultdict
 from config import drum_positions, NOTE_TO_DRUM, velocity_to_limb, LIMB_TO_VEL
 from data_manager import save_reaction_data
 from midi_utils import open_midi_in, extract_hits_from_midi
+from arduino_serial import open_serial, send_limbs_serial, all_off_serial
 from tkinter import messagebox
 import math
 
@@ -75,6 +76,9 @@ def run_game_with_realtime_input(midi_path, inport_name=None):
     except:
         background = None
 
+    # 모터 
+    ser_motor = open_serial(PORT, BAUD)
+
     # MIDI 이벤트 추출
     hits = extract_hits_from_midi(midi_path)
     if not hits:
@@ -101,6 +105,9 @@ def run_game_with_realtime_input(midi_path, inport_name=None):
     score = 0
     total_notes = len(hits)
 
+    timeline = list(hits)                     # 전송용 복사본 (게임용 hits는 pop됨)
+    next_idx = 0  
+    
     while running:
         now = time.time() - start_time
 
@@ -125,6 +132,13 @@ def run_game_with_realtime_input(midi_path, inport_name=None):
         else:
             screen.fill((0, 0, 0))
 
+        # 지금 시각까지 도래한 이벤트를 모터로 전송
+        while next_idx < len(timeline) and timeline[next_idx][0] <= now:
+            _, drum, limbs = timeline[next_idx]   # (scheduled_time, drum, limbs)
+            if limbs:
+                send_limbs_serial(ser_motor, limbs)
+            next_idx += 1
+        
         # 펄스 만들기
         for hit in hits:
             scheduled_time, drum, _ = hit
@@ -174,7 +188,12 @@ def run_game_with_realtime_input(midi_path, inport_name=None):
         pygame.display.flip()
         clock.tick(60)
         
-        
+    # 종료 시 OFF & 포트 닫기
+    all_off_serial(ser_motor)
+    try:
+        if ser_motor and ser_motor.is_open:
+            ser_motor.close()
+    except Exception:    
 
     # 반응속도 저장
     save_reaction_data(limb_reaction_times)
@@ -221,4 +240,5 @@ def show_score_screen(screen, score, total_notes):
         screen.blit(info, (220, 300))
 
         pygame.display.flip()
+
 
