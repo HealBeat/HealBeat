@@ -40,6 +40,8 @@ this project bridges **music therapy** and **game-based rehabilitation**, creati
 본 프로젝트는 **실시간 MIDI 드럼 입력**과 **시각적, 촉각적 피드백 및 데이터 기록**을 결합하여,
 음악치료와 게임 기반 재활을 연결하는 구조화된 재미있는 훈련 환경을 제공합니다.
 
+---
+
 ## ✨ Features | 주요 기능
 
 (English)
