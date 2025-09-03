@@ -29,6 +29,17 @@ HealBeat Rhythm Game은 전자드럼 실시간 입력을 기반으로 하는 리
 
 ---
 
+## ⚙️ 설치 방법
+1. 저장소 클론
+git clone https://github.com/username/healbeat-rhythm-game.git
+cd healbeat-rhythm-game
+2. 패키지 설치
+pip install -r requirements.txt
+3. 실행
+python main.py
+
+---
+
 ## 📂 파일 구조
 
 ```bash
@@ -48,16 +59,6 @@ healbeat/
 ├── midiFolder/               # MIDI 파일 모음 폴더
 └── reaction_data.csv    # 반응속도 기록 (자동 생성)
 
----
-
-## ⚙️ 설치 방법
-1. 저장소 클론
-git clone https://github.com/username/healbeat-rhythm-game.git
-cd healbeat-rhythm-game
-2. 패키지 설치
-pip install -r requirements.txt
-3. 실행
-python main.py
 
 
 
