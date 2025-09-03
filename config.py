@@ -7,6 +7,14 @@ velocity_to_limb = {
     50: ["Left Leg", "Right Arm"]
 }
 
+# 아두이노로 보낼 velocity 매핑 
+LIMB_TO_VEL = { #ADD
+    "Left Arm":  40,
+    "Right Arm": 30,
+    "Left Leg":  20, 
+    "Right Leg": 10,  
+}
+
 # 드럼 좌표
 drum_positions = {
     "Kick": (390, 385),
