@@ -39,9 +39,27 @@ healbeat/
 ├── data_utils.py        # CSV 기록 및 데이터 시각화
 ├── ui_home.py           # 홈 화면 UI (tkinter)
 ├── ui_score.py          # 점수 화면 UI
+├── right.ino            # 오른팔, 오른다리 모터 진동
+├── left.ino             # 왼팔, 왼다리 모터 진동
 ├── assets/
 │   ├── background.png   # 홈 화면 배경
 │   ├── background_2.png # 게임 화면 배경
 │   └── ...              # 기타 이미지 리소스
 ├── midiFolder/               # MIDI 파일 모음 폴더
 └── reaction_data.csv    # 반응속도 기록 (자동 생성)
+
+---
+
+## ⚙️ 설치 방법
+1. 저장소 클론
+git clone https://github.com/username/healbeat-rhythm-game.git
+cd healbeat-rhythm-game
+2. 패키지 설치
+pip install -r requirements.txt
+3. 실행
+python main.py
+
+
+
+
+
