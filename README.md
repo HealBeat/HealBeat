@@ -47,8 +47,9 @@ this project bridges **music therapy** and **game-based rehabilitation**, creati
 - 🎵 **Realtime MIDI drum input**  
   Detects timing of drum hits
   
-- 🥁 **Visual feedback**
+- 🥁 **Feedback**
   Drum kit pulses in sync with scheduled notes.
+  Vibration sensor with scheduled notes.
 
 - 📊 **Session visualization**
   Average reaction errors per limb are plotted over multiple attempts.
@@ -64,8 +65,8 @@ this project bridges **music therapy** and **game-based rehabilitation**, creati
 - 🥁 **전자드럼 실시간 입력 지원**  
   MIDI 입력 포트에서 드럼 신호를 받아 정해진 타이밍과 비교
 
-- 🔴 **비주얼 피드백**  
-  - 예정된 노트: 붉은색 펄스 원  
+- 🔴 **피드백**  
+  - 예정된 노트: 붉은색 펄스 원, 진동센서서  
   - 실시간 사용자 입력: 주황색 원  
 
 - 📊 **데이터 기록 및 시각화**  
