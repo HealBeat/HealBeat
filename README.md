@@ -7,7 +7,7 @@ HealBeat Rhythm Game is a rhythm game based on real-time electronic drum input.
 It is designed to serve as an auxiliary tool for music therapy with **rehabilitation purposes** for seniors, children with autism, stroke patients, and others.
 
 
-(Korean)
+(한국어)
 
 
 HealBeat Rhythm Game은 전자드럼 실시간 입력을 기반으로 하는 리듬 게임입니다.  
