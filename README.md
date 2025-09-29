@@ -22,8 +22,7 @@ In particular:
 - **Emotional Motivation**:  
   Interactive rhythm-based feedback provides motivation and enjoyment, increasing adherence to therapy routines.
 
-By combining **real-time MIDI drumming input** with **visual & heptic feedback and data tracking**,  
-this project bridges **music therapy** and **game-based rehabilitation**, creating a playful yet structured environment for training.
+By combining **real-time MIDI drumming input** with **visual & heptic feedback and data tracking**, this project bridges **music therapy** and **game-based rehabilitation**, creating a playful yet structured environment for training.
 
 
 (한국어)
@@ -46,17 +45,17 @@ this project bridges **music therapy** and **game-based rehabilitation**, creati
 
 (English)
 
-- 🎵 **Realtime MIDI drum input**  
+- 🎵 **Realtime MIDI Drum Input**  
   Detects timing of drum hits
   
 - 🥁 **Feedback**
   Drum kit pulses in sync with scheduled notes.
   Vibration sensor with scheduled notes.
 
-- 📊 **Session visualization**
+- 📊 **Session Visualization**
   Average reaction errors per limb are plotted over multiple attempts.
 
-- 🏆 **자동 점수 화면**
+- 🏆 **Score Screen**
   Evaluates accuracy based on hit timing.
 
 (한국어)
