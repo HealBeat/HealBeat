@@ -42,7 +42,7 @@ By combining **real-time MIDI drumming input** with **visual & heptic feedback a
 
 -  **운동 능력 훈련**: 드럼 연주는 정확한 타이밍과 협응을 요구하여, 신체 능력 향상에 도움을 줍니다.
 
-- **인지적 참여**: 시각·청각 신호에 맞춰 박자를 맞추는 과정은 집중력, 기억력, 반응 속도 개선에 기여합니다.- 
+- **인지적 참여**: 시각·청각 신호에 맞춰 박자를 맞추는 과정은 집중력, 기억력, 반응 속도 개선에 기여합니다.
 
 - **정서적 동기 부여**: 리듬 기반 상호작용은 즐거움과 동기를 제공해 지속적인 참여를 유도합니다.
 
@@ -51,9 +51,31 @@ By combining **real-time MIDI drumming input** with **visual & heptic feedback a
 
 ---
 
+## 🎶 Flow Chart | 흐름도
+
+
+---
+
+##  | 개발 환경
+
+(English)
+
+
+- **Hardware**
+MCU: Arduino Uno 
+Actuator: Vibration Motor Module
+External Instrument: Samik loogo Electronic Drum Pad
+- **Software**
+Language: Python , Arduino IDE
+Library: pretty_midi, pygame, mido, pandas, matplotlib, Pillow, tkinter
+Environment: Windows
+
+---
+
 ## ✨ Features | 주요 기능
 
 (English)
+
 
 - 🎵 **Realtime MIDI Drum Input**  
   Detects timing of drum hits
@@ -93,18 +115,18 @@ By combining **real-time MIDI drumming input** with **visual & heptic feedback a
 ---
 
 ## ⚙️ Installation | 설치 방법
-1. 저장소 클론
+1. Clone the repository 저장소 클론
 ```bash
 git clone https://github.com/username/healbeat-rhythm-game.git
 cd healbeat-rhythm-game
 ```
 
-2. 패키지 설치
+2. Install Packages 패키지 설치
 ```bash
 pip install -r requirements.txt
 ```
 
-3. 실행
+3. Run 실행
 ```bash
 python main.py
 ```
@@ -124,8 +146,8 @@ healbeat/
 ├── motor.ino            # 모터 진동 피드백. Heptic feedback for limbs.
 ├── requirement.txt      # 패키지 설치 리스트. Dependencies
 ├── assets/
-│   ├── background.png   # 홈 화면 배경
-│   ├── background_2.png # 게임 화면 배경
-│   └── ...              # 기타 이미지 리소스
-├── midiFolder/               # MIDI 파일 모음 폴더
-└── reaction_data.csv    # 반응속도 기록 (자동 생성)
+│   ├── background.png   # 홈 화면 배경. Home screen background.
+│   ├── background_2.png # 게임 화면 배경. Main screen background.
+│   └── ...              # 기타 이미지 리소스. Other image resources.
+├── midiFolder/               # MIDI 파일 모음 폴더. MIDI files folder
+└── reaction_data.csv    # 반응속도 기록 (자동 생성). Records of reaction speed.
