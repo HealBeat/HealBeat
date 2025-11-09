@@ -62,12 +62,20 @@ By combining **real-time MIDI drumming input** with **visual & heptic feedback a
 
 
 - **Hardware**
-MCU: Arduino Uno 
+  
+MCU: Arduino Uno
+
 Actuator: Vibration Motor Module
+
 External Instrument: Samik loogo Electronic Drum Pad
+
+
 - **Software**
+  
 Language: Python , Arduino IDE
+
 Library: pretty_midi, pygame, mido, pandas, matplotlib, Pillow, tkinter
+
 Environment: Windows
 
 ---
