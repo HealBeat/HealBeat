@@ -53,11 +53,13 @@ By combining **real-time MIDI drumming input** with **visual & heptic feedback a
 
 ## 🎶 Flow Chart | 흐름도
 
-
+<div>
+<img width="681" height="431" alt="Image" src="https://github.com/user-attachments/assets/02a937da-05f7-4d69-9f41-ddb8534190ea" />
+<img width="246" height="504" alt="Image" src="https://github.com/user-attachments/assets/839c2b64-4282-4bda-9432-e746b3b2bece" />
+</div>
 ---
 
 ## Setup | 개발 환경
-<img width="681" height="431" alt="Image" src="https://github.com/user-attachments/assets/02a937da-05f7-4d69-9f41-ddb8534190ea" />
 
 (English)
 
