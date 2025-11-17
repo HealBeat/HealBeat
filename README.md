@@ -56,7 +56,7 @@ By combining **real-time MIDI drumming input** with **visual & heptic feedback a
 
 ---
 
-##  | 개발 환경
+## 개발 환경
 
 (English)
 
