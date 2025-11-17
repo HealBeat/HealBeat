@@ -57,6 +57,7 @@ By combining **real-time MIDI drumming input** with **visual & heptic feedback a
 ---
 
 ## Setup | 개발 환경
+<img width="681" height="431" alt="Image" src="https://github.com/user-attachments/assets/02a937da-05f7-4d69-9f41-ddb8534190ea" />
 
 (English)
 
