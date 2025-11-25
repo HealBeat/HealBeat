@@ -1,4 +1,4 @@
-# 🥁 HealBeat Rhythm Game
+# HealBeat Rhythm Game
 
 (English)
 
@@ -15,7 +15,7 @@ HealBeat Rhythm Game은 전자드럼 실시간 입력을 기반으로 하는 리
 
 ---
 
-## 🎶 Research Background | 프로젝트 배경
+## Research Background | 프로젝트 배경
 
 (English)
 
@@ -51,7 +51,7 @@ By combining **real-time MIDI drumming input** with **visual & heptic feedback a
 
 ---
 
-## 🎶 Flow Chart | 흐름도
+## Flow Chart | 흐름도
 
 <div>
 <img width="550" height="400" alt="Image" src="https://github.com/user-attachments/assets/02a937da-05f7-4d69-9f41-ddb8534190ea" />
@@ -84,49 +84,49 @@ Environment: Windows
 
 ---
 
-## ✨ Features | 주요 기능
+## Features | 주요 기능
 
 (English)
 
 
-- 🎵 **Realtime MIDI Drum Input**  
+- **Realtime MIDI Drum Input**  
   Detects timing of drum hits
   
-- 🥁 **Feedback**
+- **Feedback**
   Drum kit pulses in sync with scheduled notes.
   Vibration sensor with scheduled notes.
 
-- 📊 **Session Visualization**
+- **Session Visualization**
   Average reaction errors per limb are plotted over multiple attempts.
 
-- 🏆 **Score Screen**
+- **Score Screen**
   Evaluates accuracy based on hit timing.
 
 (한국어)
 
-- 🎵 **MIDI 파일 기반 리듬 노트 생성**  
+- **MIDI 파일 기반 리듬 노트 생성**  
   지정한 폴더의 MIDI 파일을 선택하여 게임 플레이 가능
 
-- 🥁 **전자드럼 실시간 입력 지원**  
+- **전자드럼 실시간 입력 지원**  
   MIDI 입력 포트에서 드럼 신호를 받아 정해진 타이밍과 비교
 
-- 🔴 **피드백**  
+- **피드백**  
   - 예정된 노트: 붉은색 펄스 원, 진동센서서  
   - 실시간 사용자 입력: 주황색 원  
 
-- 📊 **데이터 기록 및 시각화**  
+- **데이터 기록 및 시각화**  
   - 반응속도 기록을 CSV로 저장  
   - 세션별 limb 평균 반응속도를 그래프로 확인 가능  
 
-- 🏆 **자동 점수 화면**  
+- **자동 점수 화면**  
   곡이 끝나면 점수를 자동 계산 후 결과 화면 표시
 
-- ⏸ **게임 도중 메뉴 호출**  
+- **게임 도중 메뉴 호출**  
   ESC 키 또는 마우스로 **Resume / Home / Exit** 선택 가능  
 
 ---
 
-## ⚙️ Installation | 설치 방법
+## Installation | 설치 방법
 1. Clone the repository 저장소 클론
 ```bash
 git clone https://github.com/username/healbeat-rhythm-game.git
@@ -145,7 +145,7 @@ python main.py
 
 ---
 
-## 📂 Project Structure | 파일 구조
+## Project Structure | 파일 구조
 
 ```bash
 healbeat/
